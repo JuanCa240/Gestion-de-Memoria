@@ -1,6 +1,7 @@
-package com.mycompany.gestiondememoria;
+package AdministradorMemoria;
 
 import java.util.ArrayList;
+
 
 public class GestionMemoria {
     private MemoriaFisica memoriaFisica;
@@ -150,23 +151,32 @@ public class GestionMemoria {
         int totalMemoria = memoriaFisica.getCapacidadTotal();
         int memoriaUtilizada = 0;
         int memoriaFragmentada = 0;
+        int fragmentacionInterna = 0;
+        int fragmentacionExterna = 0;
+        int memoriaLibre = 0;
 
         for (BloqueMemoria bloque : memoriaFisica.getBloques()) {
             if (bloque.getEstado().equals("Ocupado")) {
                 memoriaUtilizada += bloque.getMemoriaAsignada();
             } else {
-                memoriaFragmentada += bloque.getMemoriaAsignada();
+                memoriaLibre += bloque.getMemoriaAsignada();
+                if (bloque.getMemoriaAsignada() < 64) {
+                    fragmentacionInterna += bloque.getMemoriaAsignada();
+                } else {
+                    fragmentacionExterna += bloque.getMemoriaAsignada();
+                }
             }
         }
-        
-        int memoriaLibre = totalMemoria - memoriaUtilizada;
+
         double porcentajeUso = (memoriaUtilizada * 100.0) / totalMemoria;
-        double porcentajeFragmentacion = (memoriaFragmentada * 100.0) / totalMemoria;
-        
+        double porcentajeFragmentacionInterna = (fragmentacionInterna * 100.0) / totalMemoria;
+        double porcentajeFragmentacionExterna = (fragmentacionExterna * 100.0) / totalMemoria;
+
         System.out.println("\n=== Estadísticas de Memoria ===");
         System.out.println("Memoria Total: " + totalMemoria + " KB");
         System.out.println("Memoria Utilizada: " + memoriaUtilizada + " KB (" + porcentajeUso + "%)");
         System.out.println("Memoria Libre: " + memoriaLibre + " KB");
-        System.out.println("Memoria Fragmentada: " + memoriaFragmentada + " KB (" + porcentajeFragmentacion + "%)\n");
+        System.out.println("Fragmentación Interna: " + fragmentacionInterna + " KB (" + porcentajeFragmentacionInterna + "%)");
+        System.out.println("Fragmentación Externa: " + fragmentacionExterna + " KB (" + porcentajeFragmentacionExterna + "%)\n");
     }
 }

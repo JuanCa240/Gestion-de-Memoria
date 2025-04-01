@@ -1,4 +1,4 @@
-package com.mycompany.gestiondememoria;
+package AdministradorMemoria;
 
 import java.util.ArrayList;
 

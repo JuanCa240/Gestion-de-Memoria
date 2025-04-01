@@ -1,4 +1,4 @@
-package com.mycompany.gestiondememoria;
+package AdministradorMemoria;
 
 public class BloqueMemoria {
     private int memoriaAsignada;

@@ -1,5 +1,8 @@
-C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\com\mycompany\gestiondememoria\EjecutarSimulacion.java
-C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\com\mycompany\gestiondememoria\MemoriaFisica.java
-C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\com\mycompany\gestiondememoria\BloqueMemoria.java
-C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\com\mycompany\gestiondememoria\GestionMemoria.java
-C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\com\mycompany\gestiondememoria\Proceso.java
+C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\EficienciaMemoria\Interna.java
+C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\EficienciaMemoria\Fragmentacion.java
+C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\gestionmemoria\BloqueMemoria.java
+C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\gestionmemoria\GestionMemoria.java
+C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\gestionmemoria\MemoriaFisica.java
+C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\EficienciaMemoria\Externa.java
+C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\gestionmemoria\Proceso.java
+C:\Users\Juan Camilo\OneDrive\Documentos\NetBeansProjects\GestionDeMemoria\src\main\java\gestionmemoria\EjecutarSimulacion.java

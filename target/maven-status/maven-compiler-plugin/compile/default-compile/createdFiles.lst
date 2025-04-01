@@ -1,5 +1,8 @@
-com\mycompany\gestiondememoria\MemoriaFisica.class
-com\mycompany\gestiondememoria\Proceso.class
-com\mycompany\gestiondememoria\EjecutarSimulacion.class
-com\mycompany\gestiondememoria\GestionMemoria.class
-com\mycompany\gestiondememoria\BloqueMemoria.class
+gestionmemoria\BloqueMemoria.class
+gestionmemoria\EjecutarSimulacion.class
+gestionmemoria\MemoriaFisica.class
+gestionmemoria\GestionMemoria.class
+gestionmemoria\Proceso.class
+EficienciaMemoria\Fragmentacion.class
+EficienciaMemoria\Interna.class
+EficienciaMemoria\Externa.class
